@@ -1,0 +1,31 @@
+<div class="jumbotron bg-light border border-secondary">
+  <div class="row">
+      <div class="col-md-6">
+              <div class="card-desck">
+                      <div class="card border border-primary">
+                          <div class="card-body">
+                              <h5 class="card-title">Total de Categoria</h5>
+                              <p class="card-text">
+                                  Categoria Cadastrada: {{param.totalCategoria}}
+                              </p>
+                          </div>
+                       </div>
+              </div>
+      </div>
+      <div class="col-md-6">
+              <div class="card-desck">
+                      <div class="card border border-primary">
+                          <div class="card-body">
+                              <h5 class="card-title">Total de Produto </h5>
+                              <p class="card-text">
+                                Produto  Cadastrado : {{param.totalProduto}}
+                              </p>
+                              <p class="card-text">
+                                Preços dos Produtos : {{param.totalProdutoPreco == null ? "0" : param.totalProdutoPreco}} R$
+                              </p>
+                          </div>
+                      </div>
+              </div>
+      </div>
+  </div>
+</div>
